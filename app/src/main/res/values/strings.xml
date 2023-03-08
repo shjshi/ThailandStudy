@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">ThaiStudy</string>
+    <string name="all_ele2">ก,ข,ฃ,ค,ฅ,ฆ,ง,จ,ฉ,ช,ซ,ฌ,ญ,ฎ,ฏ,ฐ,ฑ,ฒ,ณ,ด,ต,ถ,ท,ธ,น,บ,ป,ผ,ฝ,พ,ฟ,ภ,ม,ย,ร,ฤ,ล,ฦ,ว,ศ,ษ,ส,ห,ฬ,อ,ฮ,ฯ,ะ,ั,า,ำ,ิ,ี,ึ,ื,฿,เ,แ,โ,ใ,ไ,ๅ,ๆ,็,่,้,๊,๋,์,ํ,๎,๏,๐,๑,๒,๓,๔,๕,๖,๗,๘,๙,๚,๛</string>
+    <string name="all_ele">ก,ข,ฃ,ค,ฅ,ฆ,ง,จ,ฉ,ช,ซ,ฌ,ญ,ฎ,ฏ,ฐ,ฑ,ฒ,ณ,ด,ต,ถ,ท,ธ,น,บ,ป,ผ,ฝ,พ,ฟ,ภ,ม,ย,ร,ฤ,ล,ฦ,ว,ศ,ษ,ส,ห,ฬ,อ,ฮ,ฯ,ะ,า,฿,เ,แ,โ,ใ,ไ,ๅ,ๆ,๏,๐,๑,๒,๓,๔,๕,๖,๗,๘,๙,๚,๛</string>
+    <string name="middle">ก,จ,ด,ต,ฎ,ฏ,บ,ป,อ</string>
+    <string name="high">ข,ฉ,ถ,ฐ,ผ,ฝ,ศ,ษ,ส,ห</string>
+    <string name="even">ค,ฆ,ช,ฌ,ซ,ท,ธ,ฑ,ฒ,พ,ฟ,ภ,ฮ</string>
+    <string name="odd">ง,ย,ญ,น,ณ,ล,ฬ,ร,ม,ว</string>
+    <string name="qing_wei">ง,น,ม,,ย,ว</string>
+    <string name="zhuo_wei">ก,ด,บ</string>
+    <string name="samler1">ฆ,ช,ฃ,ซ,ข,ฑ</string>
+    <string name="samler2">ณ,ฌ</string>
+    <string name="samler3">น,ม</string>
+    <string name="same_vocal">ศ,ษ,ส</string>
+    <string name="same_vocal_symbol">s</string>
+    <string name="same_vocal_type">高辅音</string>
+
+    <string-array name="type">
+        <item>中辅音</item>
+        <item>高辅音</item>
+        <item>偶低辅音</item>
+        <item>高低辅音</item>
+        <item>清尾辅音</item>
+        <item>浊尾辅音</item>
+    </string-array>
 </resources>

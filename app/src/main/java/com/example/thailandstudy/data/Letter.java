@@ -3,6 +3,7 @@ package com.example.thailandstudy.data;
 public class Letter {
     public int id;
     public String name;
+    public String dec;
     public String elements;
     public String symbol;
     public String tone;
