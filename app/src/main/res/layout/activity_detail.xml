@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="组成" />
+
+    <TextView
+        android:id="@+id/elements"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:textSize="@dimen/thai_letter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/symbol"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/thai_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/iv_symbol"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/thai_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="声调" />
+    <TextView
+        android:id="@+id/tone"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:textSize="@dimen/thai_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/combine"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:textSize="@dimen/thai_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:text="短元音发 第二声\n长元音发 第一声"
+        android:id="@+id/vowel_tone"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:textSize="@dimen/thai_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

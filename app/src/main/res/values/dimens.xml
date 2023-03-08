@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="title">25dp</dimen>
+    <dimen name="thai_letter">40dp</dimen>
+    <dimen name="thai_normal">20dp</dimen>
+    <dimen name="thai_small">15dp</dimen>
+    <dimen name="margin">10dp</dimen>
+</resources>
