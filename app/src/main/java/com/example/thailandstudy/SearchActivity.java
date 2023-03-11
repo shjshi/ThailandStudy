@@ -1,5 +1,6 @@
 package com.wisky.thaistudygame;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,10 +11,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 
 
+import com.example.thailandstudy.R;
+import com.example.thailandstudy.data.Letter;
+import com.example.thailandstudy.utils.JsonUtils;
+
 import java.util.List;
 
 public class SearchActivity extends AppCompatActivity {
-    SearchView sv;
+//    SearchView sv;
 //    Button bt;
     TextView tv;
     private List<Letter> letters;
@@ -24,41 +29,20 @@ public class SearchActivity extends AppCompatActivity {
         setContentView(R.layout.activity_search);
         initData();
         findView();
-        sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-               for (Letter letter:letters){
-                   if (letter.name.equals(query)){
-                       tv.setText(letter.dec);
-                   }
-               }
 
-                return false;
+        Intent intent = getIntent();
+        String query = intent.getStringExtra("query");
+        setTitle(query);
+        for (Letter letter:letters){
+            if (letter.name.equals(query)){
+                tv.setText(letter.dec);
             }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                return false;
-            }
-        });
-        sv.setOnSearchClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-        sv.setOnQueryTextFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View view, boolean b) {
-
-            }
-        });
+        }
     }
 
     private void findView() {
-        sv = findViewById(R.id.sv);
-        sv.setSubmitButtonEnabled(true);
-//        bt = findViewById(R.id.bt);
+//        sv = findViewById(R.id.sv);
+//        sv.setSubmitButtonEnabled(true);
         tv = findViewById(R.id.tv);
     }
 

@@ -15,12 +15,26 @@
     <string name="same_vocal_symbol">s</string>
     <string name="same_vocal_type">高辅音</string>
 
+    <string-array name="activitys">
+        <item>常见搜索</item>
+        <item>高辅音</item>
+    </string-array>
+
     <string-array name="type">
         <item>中辅音</item>
         <item>高辅音</item>
         <item>偶低辅音</item>
-        <item>高低辅音</item>
+        <item>奇低辅音</item>
+        <item>复合辅音</item>
         <item>清尾辅音</item>
         <item>浊尾辅音</item>
+        <item>单元音</item>
+        <item>复合元音</item>
+        <item>长元音</item>
+        <item>短元音</item>
+        <item>特殊元音</item>
+        <item>前引字</item>
+        <item>后引字</item>
+        <item>声调符号</item>
     </string-array>
 </resources>

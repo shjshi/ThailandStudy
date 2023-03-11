@@ -72,13 +72,6 @@
                     android:text="复合辅音"
                     android:textSize="@dimen/title" />
 
-                <!--        <Button-->
-                <!--            android:id="@+id/bt_even_low"-->
-                <!--            android:layout_width="wrap_content"-->
-                <!--            android:layout_height="wrap_content"-->
-                <!--            android:layout_margin="@dimen/margin"-->
-                <!--            android:text="偶低辅音"-->
-                <!--            android:textSize="@dimen/title" />-->
             </LinearLayout>
 
             <LinearLayout
@@ -181,13 +174,6 @@
                     android:text="前引字"
                     android:textSize="@dimen/title" />
 
-                <!--        <Button-->
-                <!--            android:id="@+id/bt_compound_vowel"-->
-                <!--            android:layout_width="wrap_content"-->
-                <!--            android:layout_height="wrap_content"-->
-                <!--            android:layout_margin="@dimen/margin"-->
-                <!--            android:text="复合元音"-->
-                <!--            android:textSize="@dimen/title" />-->
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
