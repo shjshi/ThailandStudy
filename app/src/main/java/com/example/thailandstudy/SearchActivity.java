@@ -1,4 +1,4 @@
-package com.example.thailandstudy;
+package com.wisky.thaistudygame;
 
 import android.os.Bundle;
 import android.view.View;
@@ -9,8 +9,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 
-import com.example.thailandstudy.data.Letter;
-import com.example.thailandstudy.utils.JsonUtils;
 
 import java.util.List;
 
