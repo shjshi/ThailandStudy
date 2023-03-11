@@ -1,4 +1,4 @@
-package com.wisky.thaistudygame;
+package com.example.thailandstudy;
 
 import android.content.Intent;
 import android.os.Bundle;
